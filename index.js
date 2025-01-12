@@ -61,6 +61,10 @@ function currentwinner(){
         document.getElementById("score2").style.color="#F7AB3A"
         document.getElementById("score1").style.color="#F94F6D"
     }
+    else{
+        document.getElementById("score1").style.color="#F94F6D"
+        document.getElementById("score2").style.color="#F94F6D"
+    }
 }
 function result(){
     let t1_score=document.getElementById("score1").textContent
