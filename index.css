@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    background-image: url(moon-4919501_1280.jpg);
+    object-fit: cover;
+}
+
+.score-board{
+    display:flex;
+    justify-content: space-around;
+    /* background-color:#1B244A ; */
+}
+#T1,#T2{
+   padding:10px; 
+}
+.l1{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#EEEEEE;
+
+}
+
+/* score section */
+#score1,#score2{
+    margin-top:0;
+    margin-bottom:3px;
+    border:1px solid black;
+    border-radius: 1px;
+    padding-left: 3px;
+    padding-right: 2.5px;
+    padding-top: 1px;
+    padding-bottom:1px;
+    background-color:black;
+    color:#F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;    
+    text-align: center;                                       
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* buttons */
+.bt{
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    border: 2px solid #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#9AABD8;
+    background-color: #1B244A;
+}
+.btn{
+    text-align: center;
+}
+.reset,.end{
+    
+    width: 150px;
+    height: 25px;
+    border: 2px solid #9AABD8;
+    border-radius: 6px 6px 6px 6px;
+    color:#9AABD8;
+    background-color: #1B244A;
+    margin-right: 4px;
+}
+
+
+.bottom{
+    display:flex;
+    justify-content: center;
+    /* background-color:#1B244A ; */
+    padding:10px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin:0;
+    /* background-color:#1B244A ; */
+    color:#d46d06
+}
