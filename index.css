@@ -2,6 +2,7 @@ body{
     margin:0;
     background-image: url(moon-4919501_1280.jpg);
     object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 .score-board{
