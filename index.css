@@ -7,12 +7,11 @@ body{
 .score-board{
     display:flex;
     justify-content: space-around;
-    /* background-color:#1B244A ; */
 }
 #T1,#T2{
    padding:10px; 
 }
-.l1{
+.title{
     font-family: Verdana;
     font-size: 40px;
     font-weight: 700;
@@ -45,7 +44,7 @@ body{
     text-decoration-skip-ink: none;
 }
 
-/* buttons */
+/* counter buttons */
 .bt{
     width: 45px;
     height: 45px;
@@ -68,8 +67,9 @@ body{
 .btn{
     text-align: center;
 }
-.reset,.end{
-    
+
+/* reset and endgame buttons */
+.reset,.end{ 
     width: 150px;
     height: 25px;
     border: 2px solid #9AABD8;
@@ -79,11 +79,10 @@ body{
     margin-right: 4px;
 }
 
-
+/*  */
 .bottom{
     display:flex;
     justify-content: center;
-    /* background-color:#1B244A ; */
     padding:10px;
 }
 p{

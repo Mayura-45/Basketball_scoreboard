@@ -44,6 +44,9 @@ function addthree(){
 function reset(){
     document.getElementById("score1").textContent=0
     document.getElementById("score2").textContent=0
+    document.getElementById("score1").style.color="#F94F6D"
+    document.getElementById("score2").style.color="#F94F6D"
+    document.getElementById("win").textContent=""
 }
 function currentwinner(){
     let t1_score=document.getElementById("score1").textContent
