@@ -71,9 +71,18 @@ body{
 
 /* reset and endgame buttons */
 .reset,.end{ 
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
     width: 150px;
-    height: 25px;
-    border: 2px solid #9AABD8;
+    height: 40px;
+    top: 271px;
+    left: 82px;
+    border: 2px solid ;
     border-radius: 6px 6px 6px 6px;
     color:#9AABD8;
     background-color: #1B244A;
